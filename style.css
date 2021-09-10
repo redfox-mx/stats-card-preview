@@ -1,0 +1,137 @@
+:root {
+  --dark-blue: hsl(233, 47%, 7%);
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --color-paragraph: hsla(0, 0%, 100%, 0.75);
+  --color-stats-heading: hsla(0, 0%, 100%, 0.6);
+}
+
+html {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  align-items: center;
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.highlight {
+  color: var(--soft-violet);
+}
+
+.card {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: var(--dark-desaturated-blue);
+  border-radius: 6px;
+  flex-direction: column-reverse;
+  overflow: hidden;
+  width: 320px;
+}
+
+.content {
+  padding: 35px;
+  text-align: center;
+}
+
+.content__title {
+  color: var(--white);
+  font-size: 1.7rem;
+}
+
+.content__description {
+  color: var(--color-paragraph);
+  font-size: 0.9rem;
+  line-height: 1.8em;
+  margin-bottom: 30px;
+}
+
+.content__stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 220px;
+}
+
+.stat__reating {
+  color: var(--white);
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.stat__heading {
+  color: var(--color-stats-heading);
+  text-transform: uppercase;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.67rem;
+  letter-spacing: 0.1em;
+}
+
+.preview {
+  position: relative;
+  height: 235px;
+}
+
+.preview::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: hsla(277, 89%, 30%, 0.5);
+}
+
+.preview__image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+
+@media screen and (min-width: 800px){
+  .card {
+    flex-direction: row;
+    width: 76%;
+    max-height: 400px;
+    min-height: 370px;
+    height: 50vh;
+  }
+
+  .content{
+    text-align: left;
+    padding: 4% 15% 6% 6%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content__stats {
+    flex-direction: row;
+    height: auto;
+    margin-top: auto;
+  }
+
+  .preview {
+    min-width: 48%;
+    height: 100%;
+  }
+}
