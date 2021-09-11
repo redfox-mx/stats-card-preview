@@ -6,7 +6,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -14,6 +13,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Screenshot](#screenshot)
 
 ## Overview
 
@@ -27,15 +27,11 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Screenshot
-
-![mobile](./mobile.png)
-![desktop](./desktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/redfox-mx/stats-card-preview)
+- Live Site URL: [github pages](https://redfox-mx.github.io/stats-card-preview/)
 
 ## My process
 
@@ -89,3 +85,8 @@ Some layout strategies, actually one of my skills to improve is about applying l
 ## Author
 
 - Twitter - [@redfox_mx](https://www.twitter.com/redfox_mx)
+
+## Screenshot
+
+![mobile](./mobile.png)
+![desktop](./desktop.png)
